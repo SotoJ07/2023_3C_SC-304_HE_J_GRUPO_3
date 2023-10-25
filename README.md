@@ -1,6 +1,9 @@
 # Estructura de Datos
 ## _Código curso: SC-304, 2023-3C_
 ## _Grupo 3_
+Jafeth Gonzalez Sandoval
+Henry Loaiza Oviedo
+Jennifer Soto
 
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
