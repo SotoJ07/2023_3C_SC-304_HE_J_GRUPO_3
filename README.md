@@ -1,5 +1,6 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
+# Estructura de Datos
+## _Código curso: SC-304, 2023-3C_
+## _Grupo 3_
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
