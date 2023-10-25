@@ -17,10 +17,11 @@ Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |
-| XX | [plugins/dropbox/README.md][PlDb] |
-| XX | [plugins/github/README.md][PlGh] |
-| XX | [plugins/googledrive/README.md][PlGd] |
-| XX | [plugins/onedrive/README.md][PlOd] |
-| XX | [plugins/medium/README.md][PlMe] |
-| XX | [plugins/googleanalytics/README.md][PlGa] |
-
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
+| XX | XXXX |
