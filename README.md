@@ -4,6 +4,7 @@
 - Jafeth Gonzalez Sandoval
 - Henry Loaiza Oviedo
 - Jennifer Soto
+- Brandon Chaves
 
 - ✨✨✨
 
