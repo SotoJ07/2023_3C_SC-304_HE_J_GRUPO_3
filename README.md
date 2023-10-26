@@ -33,8 +33,6 @@ El Proyecto se da por la necesidad de la empresa TrainGo de establecer un system
 
 ## Plugins
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
 
 | Tecnologías utilizadas | 
 | ------ |
