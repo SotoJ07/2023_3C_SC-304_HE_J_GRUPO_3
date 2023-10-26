@@ -13,6 +13,8 @@
 
 ## Nombre de Empresa: TrainGo
 
+## Logo: [TrainGo.JPG](https://github.com/SotoJ07/2023_3C_SC-304_HE_J_GRUPO_3/blob/main/TrainGo.JPG)
+
 ***Índice***
 
 ***Descripción del proyecto***
