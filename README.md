@@ -49,3 +49,13 @@ El Proyecto se da por la necesidad de la empresa TrainGo de establecer un system
 | Pendiente |
 | Pendiente |
 | Pendiente |
+
+
+| Tareas | Encargado |
+| ------ | ------ |
+| Pila Compra de Ticketes | Jennifer Soto |
+| Pila Compra de Ticketes | Jafet Gonzalez |
+| Ruta de Tren en vivo | Henry Loaiza Oviedo |
+| Ruta de Tren en vivo | Brandon Chaves |
+| Carga de Pasajeros Grafo | Grupal |
+
