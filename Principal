@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package practicageneral;
+import Pregunta1.Cola;
+import Pregunta1.Discapacidad;
+import Pregunta1.Estado;
+import Pregunta1.Nodo;
+import Pregunta1.Pasajeros;
+/**
+ *
+ * @author jenns
+ */
+public class Principal {
+
+    public static void main(String[] args) {
+        Cola cola = new Cola();
+        cola.Insertar(603, "Jennifer", "Soto", 34, "Cartago", "Heredia", Discapacidad.No, Estado.En_Cola);
+        cola.Insertar(1, "Miriam", "Mora", 1, "San Jose", "Alajuela", Discapacidad.Si, Estado.Completado);
+        cola.Insertar(10, "XX", "YY", 11, "Alajuela", "San Jose", Discapacidad.Si, Estado.Completado);
+       
+        cola.Insertar(78, "Irene", "Perez", 40, "Limon", "Puntarenas", Discapacidad.No, Estado.En_Camino); 
+        cola.Insertar(2, "Nat", "Carrillo", 2, "San Jose", "San Jose", Discapacidad.Si, Estado.Completado);
+        cola.mostrar();
+    }
+    
+}
