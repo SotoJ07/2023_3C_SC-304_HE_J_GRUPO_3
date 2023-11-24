@@ -1,0 +1,56 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Pregunta1;
+import Pregunta1.Cola;
+/**
+ *
+ * @author jenns
+ */
+public class Nodo {  ////el nodo es un contenedor de persona animal lo que sea
+    
+    private Pasajeros contenido;
+    private Nodo siguiente; // es lo que une a los 'vagones' del tren el tren completo es una cola o pila
+    //Si el nodo NO tiene lo de arriba NO va salir la estructura (los demas vagones), es un puntero
+
+    public Nodo(Pasajeros contenido) {
+        this.contenido = contenido;
+    }
+        
+    //No necesito hacer un constructor de Nodo porque el NODO es lo que une a las clases
+
+    public void setSiguiente(Nodo siguiente) { // el setter es para declarar el valor
+        this.siguiente = siguiente;
+   
+    }
+
+    public Pasajeros getContenido() {
+        return contenido;
+    }
+
+    public Nodo getSiguiente() {
+        return siguiente;
+    }
+
+   private String nombre;
+    private String apellido;
+    private int edad;
+    private String EstadoOriginal;
+    private String EstadoDestino;
+    private Discapacidad disc;
+    private Estado estadoactual;
+    
+    
+    
+   @Override
+   public String toString() {
+   return " Nombre " + contenido.getNombre() + 
+   " Apellido " + contenido.getApellido() +
+   " Edad " + contenido.getEdad() +
+   " Parada Original " + contenido.getEstadoOriginal() +
+   " Parada Destino " + contenido.getEstadoDestino() +
+   " Discapacidad? " + contenido.getDisc() +
+   " Estado Actual " + contenido.getEstadoactual()+"\n";
+    }
+}
