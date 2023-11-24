@@ -1,0 +1,65 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Pregunta1;
+
+/**
+ *
+ * @author jenns
+ */
+public class Pasajeros {
+    
+    private int id;
+    private String nombre;
+    private String apellido;
+    private int edad;
+    private String EstadoOriginal;
+    private String EstadoDestino;
+    private Discapacidad disc;
+    private Estado estadoactual;
+
+    public Pasajeros(int id, String nombre, String apellido, int edad, String EstadoOriginal, String EstadoDestino, Discapacidad disc, Estado estadoactual) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.EstadoOriginal = EstadoOriginal;
+        this.EstadoDestino = EstadoDestino;
+        this.disc = disc;
+        this.estadoactual = estadoactual;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public String getEstadoOriginal() {
+        return EstadoOriginal;
+    }
+
+    public String getEstadoDestino() {
+        return EstadoDestino;
+    }
+
+    public Estado getEstadoactual() {
+        return estadoactual;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Discapacidad getDisc() {
+        return disc;
+    }
+    
+}
