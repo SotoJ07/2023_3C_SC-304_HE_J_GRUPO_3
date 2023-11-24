@@ -1,0 +1,56 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Pregunta1;
+
+/**
+ *
+ * @author jenns
+ */
+public class Cola {
+    
+    private Nodo Primero;
+    private Nodo Ultimo;
+  
+    
+    
+    private boolean isEmpty(){
+        return Primero==null;
+    }
+   
+public void Insertar(int id, String nombre, String apellido, int edad, String EstadoOriginal, String EstadoDestino, Discapacidad disc, Estado estadoactual){ // tenemos que crear esta para agregar a la cola
+  Pasajeros p1 = new Pasajeros(id, nombre,apellido, edad, EstadoOriginal, EstadoDestino, disc, estadoactual); // estas son las cosas de la cola
+  Nodo nuevo = new Nodo(p1);//esta el la creacion de la cajita (persona) 
+    if(isEmpty()){ // si llega la persona y no hay nadie se conviernte en la primera Y la ultima porq no hay nadie mas
+      Primero = nuevo; // se le asigna al 'nuevo' (nueva persona) el campo primero
+      Ultimo = nuevo; // se le asigna al 'nuevo' (nueva persona) el ultimo campo
+        }else{ // si la fila no esta vacia entonces se abre este if 
+            if(nuevo.getContenido().getDisc()==Discapacidad.Si){ // si la persona es discapacitada se avanza en la fila
+              nuevo.setSiguiente(Primero); // se coloca en el primero porque es discapacidato
+              Primero = nuevo; // seteamos la persona como primero
+                }else{
+                  Ultimo.setSiguiente(nuevo); // se agarra la persona siguiente 
+                  Ultimo = nuevo; // se asgina el ultimo campo a la ultima persona
+}
+}
+}
+public void atender(){
+    if(isEmpty()){// si yo trato de atender pero NO HAY NADIE en la fila no se puede hacer nada
+        System.out.print("No hay nadie en la fila");
+    }else{
+        Primero = Primero.getSiguiente();
+}   
+}
+public void mostrar(){ //para mostrar todo lo que tenemos en la fila
+    if(isEmpty()){ // SI LA FILA ESTA VACIA ENTONCES IMPRIME QUE NO HAY NADIE
+        System.out.print("La fila esta vacia");
+    }else{
+        Nodo aux = Primero; // el nodo aux se coloca como el primero
+            while(aux!=null){ // la cola corre mientras no este null
+                System.out.print(aux.toString()); // se puede usar el toString porque es un Nodo al igual que class NODO
+                    aux = aux.getSiguiente();
+    } // !ojo! si no le digo que siga al siguiente SE VA QUEDAR PEGADO en la primera persona
+}
+}
+}
