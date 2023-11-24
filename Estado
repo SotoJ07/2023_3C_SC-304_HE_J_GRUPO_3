@@ -1,0 +1,17 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+package Pregunta1;
+
+/**
+ *
+ * @author jenns
+ */
+public enum Estado {
+    En_Cola,
+    En_Camino,
+    Completado,
+    //solo admite dos valores, es como un yes or no option just that
+    //enumera porque tiene opciones limitadas 
+}
